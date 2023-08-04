@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 
 body {
     margin: 0;
@@ -344,6 +348,12 @@ body {
     padding: 150px;
     min-height: 700px;
     position: relative;
+  }
+
+  .why-t {
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
   }
   
 
