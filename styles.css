@@ -259,6 +259,7 @@ body {
         text-align: center;
         left: 20px;
         right: 20px;
+        
         margin-top: 500px;
 
       }
@@ -296,6 +297,7 @@ body {
     position: relative;
     top: 70px;
     font-size: 30px;
+    left: 20px;
     display: flex;
     flex-wrap: nowrap;
     font-family: 'Poppins', sans-serif;
@@ -323,6 +325,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
     
   
+  }
+
+  .rail-img {
+    position: absolute;
+    right: 300px;
+    top: 250px;
   }
 
 
@@ -365,6 +373,8 @@ body {
     min-height: 700px;
     position: relative;
     display: flex;
+
+
     flex-wrap: wrap;
     flex-direction: row-reverse;
   }
@@ -399,6 +409,9 @@ body {
 .p-1 {
   position: absolute;
   display: flex;
+  text-align: center;
+  top: 100px;
+
   /* overflow-wrap:break-word ; */
 }
   
@@ -425,6 +438,8 @@ body {
     transform: translate(-15%,37%);
 
   }
+
+
 
 .footer {
   background-color: #5f9ea0;
