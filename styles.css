@@ -196,6 +196,10 @@ body {
         font-size: 80px;
       }
 
+      .middle-2 {
+        min-height: 800px;
+      }
+
 
 
       .fa-arrow-down{ 
@@ -260,7 +264,7 @@ body {
         left: 20px;
         right: 20px;
         
-        margin-top: 500px;
+        margin-top: 300px;
 
       }
 
@@ -350,7 +354,7 @@ body {
     width: 55%;
     height: 100%;
     background-color: cadetblue;
-    transform: translate(65%,40%);
+    transform: translate(82%,49%);
     z-index: 1;
     
   }
@@ -359,18 +363,18 @@ body {
     content: ' ';
     display: block;
     position: absolute;
-    border-radius: 100% 50%;
+    border-radius: 100% 60%;
     width: 55%;
     height: 100%;
     background-color: hotpink;
-    transform: translate(-22%,40%);
+    transform: translate(-15%,55%);
 
   }
 
   .middle-2 {
     background-color: hotpink;
     padding: 150px;
-    min-height: 700px;
+    min-height: 600px;
     position: relative;
     display: flex;
 
@@ -406,11 +410,14 @@ body {
  
   
 
-.p-1 {
+ .middle-2 .p-1 {
   position: absolute;
   display: flex;
   text-align: center;
-  top: 100px;
+  top: 300px;
+  line-height: 1.3;
+  font-family: 'Roboto Condensed', sans-serif;
+
 
   /* overflow-wrap:break-word ; */
 }
