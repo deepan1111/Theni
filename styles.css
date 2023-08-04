@@ -228,18 +228,14 @@ body {
 
       .wel {
         position: relative;
-        left: -130px;
+        left: 30px;
         display: flex;
         flex-wrap: nowrap;
         text-overflow: clip;
   
       }
 
-      .m-1{
-        display: inline;
-        position: relative;
-        left: -100px;
-      }
+
 
       .m-1 .rail-img {
         display: none;
@@ -247,16 +243,25 @@ body {
 
       .m-1 h2 {
         position: absolute;
-        padding: -20px;
-        margin: -40px;
+        display: flex;
+        
 
         
       }
 
       .m-1 p {
-        display: none;
+        display: flex;
+        position: absolute;
+        margin-top: 450px;
       }
 
+      .p-1 {
+        text-align: center;
+        left: 20px;
+        right: 20px;
+        margin-top: 500px;
+
+      }
 
 
 
@@ -267,9 +272,11 @@ body {
 
   .middle-1 {
     background-color: cadetblue;
-    padding: 150px;
+    top: 0;
+   
     position: relative;
-    height: 400px;
+    min-height: 700px;
+    padding: 0;
     
     
 
@@ -277,6 +284,7 @@ body {
 
   .m-1 {
     margin: 0 auto;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -286,7 +294,7 @@ body {
 
   .wel {
     position: relative;
-    top: -100px;
+    top: 70px;
     font-size: 30px;
     display: flex;
     flex-wrap: nowrap;
@@ -295,10 +303,9 @@ body {
   }
 
   .m-1 h2 {
-    position: relative;
-    top: -80px;
+    position: absolute;
+    top: 90px;
     line-height: 1.2;
-
     display: flex;
     padding: 50px;
     align-content: baseline;
@@ -389,7 +396,11 @@ body {
  
   
 
-
+.p-1 {
+  position: absolute;
+  display: flex;
+  /* overflow-wrap:break-word ; */
+}
   
 
   .curve-2 {
