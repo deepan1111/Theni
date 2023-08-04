@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+}
+
+.header {
+    background-color: hotpink;
+    padding: 60px;
+
+}
+
+.home {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 100px;
+
+}
+
+.main h4 {
+    font-size: 30px;
+    position: absolute;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+
+.footer {
+    background-color: cadetblue;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: -50px;
+    position: relative;
+    justify-content: center;
+    color: black;
+
+}
