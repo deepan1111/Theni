@@ -285,7 +285,7 @@ body {
   .middle-1 {
     background-color: cadetblue;
     top: 0;
-   overflow: hidden;
+
     position: relative;
     min-height: 900px;
     padding: 0;
